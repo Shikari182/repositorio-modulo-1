@@ -1,0 +1,62 @@
+h1{
+    color: black;
+    font-family: Montserrat;
+    font-size: 32px;
+    margin-left: 64px;
+    
+    
+}
+
+body{
+    color: black;
+    font-family: Montserrat;
+    font-size: 14px;
+    width: 1280px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 320px;
+    margin-right: 320px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    background-color: white;
+
+
+    
+}
+
+.Precio{
+    font-weight: bold;
+}
+
+.Imagen{
+    margin: 24px;
+    border-radius: 16px; 
+    height: auto;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 135px;  
+    
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;  
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+
+.info span:first-child {
+    text-align: left;
+}
+
+
+.Imagen:hover {
+    transform: scale(1.05);
+    opacity: 0.7; 
+}
